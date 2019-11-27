@@ -1,0 +1,130 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #f1f3f7;
+  weight: 100%;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  ;
+  width: 100%;
+}
+
+.navbarust {
+  height: 30px;
+  background-color: #f4f4f3;
+}
+
+.navbar {
+  height: 190px;
+  weight: 100%;
+  overflow: hidden;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid red;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid red;
+}
+
+#menu a {
+  margin-top: 30px;
+  display: inline-block;
+  color: #808285;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+}
+
+#menu a:hover {
+  border-bottom: 3px solid #5cd877;
+  text-decoration: none;
+  color: #002050;
+}
+
+div.navbar {
+  background-color: white;
+}
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  display: block;
+  background-color: white;
+  height: 450px;
+}
+
+.list h3 {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.post {
+  margin: 12px;
+  display: inline-block;
+}
+
+.post img {
+  float:left;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 50px;
+
+  display: inline-block;
+}
+
+.post a {
+  float:left;
+
+  margin-left: 20px;
+  font-size: 18px;
+  text-align: center;
+  color: #272343;
+}
+
+.post a:hover {
+  color: #002050;
+  text-decoration: none;
+}
+
+.post p{
+  float:left;
+  font-size: 12px;
+  padding:0 10px 10px 0;
+  color: #272343;
+
+}

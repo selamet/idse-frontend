@@ -33,7 +33,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   margin-top: 50px;
-  ;
   width: 100%;
 }
 
@@ -84,47 +83,63 @@ div.navbar {
   margin-top: 20px;
   display: block;
   background-color: white;
-  height: 450px;
+  height: 480px;
 }
 
 .list h3 {
   font-size: 36px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: none;
 }
 
 .post {
-  margin: 12px;
+  margin: 5px 5px;
+  ;
   display: inline-block;
 }
 
 .post img {
-  float:left;
-  margin-top: 20px;
+  float: left;
+  margin-top: 15px;
   margin-left: 20px;
   height: 50px;
-
   display: inline-block;
 }
 
 .post a {
-  float:left;
-
   margin-left: 20px;
   font-size: 18px;
   text-align: center;
-  color: #272343;
+  color: #1089ff;
 }
 
 .post a:hover {
-  color: #002050;
+  color: #719192;
   text-decoration: none;
 }
 
-.post p{
-  float:left;
+.post p {
+  margin-left: 90px;
   font-size: 12px;
-  padding:0 10px 10px 0;
   color: #272343;
+}
 
+
+
+.pagination {
+  display: inline-block;
+  float: right;
+  margin-right: 10px;
+}
+
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a:hover {
+  background-color: #f1f3f7;
 }

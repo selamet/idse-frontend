@@ -2,7 +2,6 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  overflow: hidden
 }
 
 html {
@@ -44,7 +43,6 @@ a {
 .navbar {
   height: 190px;
   weight: 100%;
-  overflow: hidden;
 }
 
 .topnav a:hover {
@@ -137,6 +135,15 @@ div.navbar {
   float: left;
   padding: 8px 16px;
   text-decoration: none;
+}
+
+.bize-yazin{
+  margin-top:7px;
+  margin-left:10px;
+  margin-right: 10px;
+  float:right;
+  font-size: 12px;
+  color:gray;
 }
 
 .pagination a:hover {

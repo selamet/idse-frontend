@@ -222,6 +222,39 @@ pre code {
   background-color: white;
 }
 
-ul li{
+ul li {
   margin-left: 30px;
+}
+
+.word-exercise-navbar {
+  background-color: white;
+  height: 50px;
+}
+
+.back-homepage-parent{
+  color: #303d4f;
+}
+
+.back-homepage-parent:hover {
+  color: #00818a;
+  text-decoration: none;
+}
+
+.back-homepage {
+  text-decoration: none;
+  float: left;
+  margin-top: auto;
+  padding: 10px;
+}
+
+.back-homepage-text {
+  padding: 12px;
+  margin-top: auto;
+}
+
+
+.unit-detail p{
+  float:left;
+  padding: 13px;
+  margin: auto;
 }

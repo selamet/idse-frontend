@@ -259,6 +259,7 @@ ul li {
 
 .unit-detail p {
   line-height: 6vh;
+  display: block;
   vertical-align: middle;
   color: #e1f5fe;
   text-align: center;
@@ -422,4 +423,68 @@ ul li {
   background-color: #6f9a8d;
   margin-top: 20px;
   font-size: 18px;
+}
+
+.settings {
+  text-align: right;
+  display: inline-block;
+  line-height: 6vh;
+  vertical-align: middle;
+  color: #eafbea;
+}
+
+#settings-link {
+  color: #eafbea;
+  text-decoration: none;
+}
+
+#settings-link i {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+}
+
+#settings-link i:hover {
+  -webkit-transform: rotateZ(180deg);
+  -moz-transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  font-size: 18px;
+  border-radius: 20px;
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color:#f67280 ;
+  color:#eafbea;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content label{
+  color: #eafbea;
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
